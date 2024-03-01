@@ -12,6 +12,6 @@ dataTodo
         result.forEach((elem) => {
             const repElem = document.createElement('li');
             repElem.textContent = 'UserId: ' + elem.userId + ' ID: ' + elem.id + ' Title: ' + elem.title + ' | Completed: ' + elem.completed;
-            containerForRepo.appendChild(repElem);
+            containerForRepo.append(repElem);
         });
     })
